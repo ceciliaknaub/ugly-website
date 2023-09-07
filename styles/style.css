@@ -33,6 +33,12 @@ h4 {
 }
 
 .car {
+  height: 500px;
+  width: 200px;
+}
+
+.cigarette {
   height: 300px;
   width: 200px;
+  border-radius: 25px;
 }
