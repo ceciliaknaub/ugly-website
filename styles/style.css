@@ -23,7 +23,6 @@ h4 {
 p {
   color: blanchedalmond;
   font-family: monospace;
-  text-decoration-style: wavy;
 }
 .container {
   display: flex;
@@ -38,13 +37,23 @@ p {
   border-radius: 25px;
 }
 
+.child2 {
+  height: 50px;
+  width: 50px;
+  border: 1px solid paleturquoise;
+  border-radius: 500px;
+}
+
 .car {
   height: 500px;
   width: 200px;
+  border: 1px solid orange;
+  border-radius: 25px;
 }
 
 .cigarette {
   height: 300px;
   width: 200px;
-  border-radius: 25px;
+  border: 10px solid olive;
+  
 }
