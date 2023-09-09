@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: #CCCC66;
 }
 
 h1 {
@@ -8,52 +8,11 @@ h1 {
 }
 
 h2 {
-  color: blanchedalmond;
-  font-family: monospace;
-}
-h3 {
-  color: blanchedalmond;
-  font-family: monospace;
-}
-h4 {
-  color: blanchedalmond;
+  color: #996633;
   font-family: monospace;
 }
 
 p {
-  color: blanchedalmond;
-  font-family: monospace;
-}
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  color: #663366
 }
 
-.child1 {
-  height: 300px;
-  width: 75%;
-  border: 1px solid orangered;
-  border-radius: 25px;
-}
-
-.child2 {
-  height: 50px;
-  width: 50px;
-  border: 1px solid paleturquoise;
-  border-radius: 500px;
-}
-
-.car {
-  height: 500px;
-  width: 200px;
-  border: 1px solid orange;
-  border-radius: 25px;
-}
-
-.cigarette {
-  height: 300px;
-  width: 200px;
-  border: 10px solid olive;
-  
-}
