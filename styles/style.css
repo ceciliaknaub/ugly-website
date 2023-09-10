@@ -5,14 +5,67 @@ body {
 h1 {
   color: blanchedalmond;
   font-family: monospace;
+  text-align: center;
 }
 
 h2 {
   color: #996633;
   font-family: monospace;
+  text-align: center;
 }
 
 p {
-  color: #663366
+  color: #663366;
 }
 
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.child {
+  column-count: 3;
+  border: 3px solid #663366;
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: #996633;
+  background-color: #CCCCFF;
+  width: 45%;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  margin: 5px;
+}
+
+ul {
+  position: absolute;
+}
+
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+animation-name: color-change;
+background-color: aliceblue;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+width: 100%;
+height: 15px;
+}
+
+@keyframes color-change {
+  from {background-color: #CCCCFF}
+  to {background-color: #663366;}
+}
