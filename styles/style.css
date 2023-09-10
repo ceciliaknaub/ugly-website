@@ -47,12 +47,16 @@ img {
 
 ul {
   position: absolute;
+  height: 2px;
+  height: 1px;
+  list-style-image: url('/Users/ceciliaknaub/Documents/GitHub/ugly-website/assets/img/flower (2).png');
 }
 
 li {
-  list-style-type: none;
   margin: 0;
   padding: 0;
+  color: #996633;
+  font-family: cursive;
 }
 
 .banner {
