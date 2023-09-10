@@ -15,58 +15,57 @@ h2 {
   text-align: center;
 }
 
+h2:hover {
+  color: red;
+}
+
 p {
   color: #663366;
 }
 
+#list-header {
+  list-style: none;
+  margin-bottom: 0px;
+}
+
 .container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .child {
-  column-count: 3;
   border: 3px solid #663366;
   font-family: "Lucida Console", "Courier New", monospace;
   color: #996633;
   background-color: #CCCCFF;
-  width: 45%;
+  width: 60%;
+  margin: 25px;
 }
 
 .image-container {
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin: 25px;
 }
 
 img {
   height: 200px;
   width: 200px;
   margin: 5px;
+  border: 5px dotted #ed9838 ;
 }
 
 ul {
-  position: absolute;
-  height: 2px;
   list-style-image: url('/Users/ceciliaknaub/Documents/GitHub/ugly-website/assets/img/flower (2).png');
 }
 
 li {
-  margin: 0;
-  padding: 0;
   color: #996633;
   font-family: cursive;
 }
 
-.banner {
-animation-name: color-change;
-background-color: aliceblue;
-animation-duration: 2s;
-animation-iteration-count: infinite;
-animation-direction: alternate;
-width: 100%;
-height: 15px;
+#list {
+  background-color: #CCCC66;
+  border: none;
+  width: 20%;
 }
-
 
