@@ -1,5 +1,6 @@
 body {
   background-color: #CCCC66;
+  cursor: url('/Users/ceciliaknaub/Documents/GitHub/ugly-website/assets/img/sunflower-small.png'), pointer;
 }
 
 h1 {
@@ -48,7 +49,6 @@ img {
 ul {
   position: absolute;
   height: 2px;
-  height: 1px;
   list-style-image: url('/Users/ceciliaknaub/Documents/GitHub/ugly-website/assets/img/flower (2).png');
 }
 
@@ -69,7 +69,4 @@ width: 100%;
 height: 15px;
 }
 
-@keyframes color-change {
-  from {background-color: #CCCCFF}
-  to {background-color: #663366;}
-}
+
