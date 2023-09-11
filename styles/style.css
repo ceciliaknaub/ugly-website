@@ -23,9 +23,10 @@ p {
   color: #663366;
 }
 
-#list-header {
+.list-header {
   list-style: none;
   margin-bottom: 0px;
+  color: #663366;
 }
 
 .container {
@@ -61,6 +62,10 @@ ul {
 li {
   color: #996633;
   font-family: cursive;
+}
+
+.list-item:hover {
+  color: #ed9838;
 }
 
 #list {
