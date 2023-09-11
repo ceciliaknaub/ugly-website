@@ -1,6 +1,6 @@
 body {
   background-color: #CCCC66;
-  cursor: url('./assets/img/sunflower-small.png'), pointer;
+  cursor: url('./assets/img/sunflower-small.png');
 }
 
 h1 {
