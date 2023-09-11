@@ -1,6 +1,6 @@
 body {
   background-color: #CCCC66;
-  cursor: url('assets/img/sunflower-small.png'), pointer;
+  cursor: url('/Users/ceciliaknaub/Documents/GitHub/ugly-website/assets/img/sunflower-small.png'), pointer;
 }
 
 h1 {
@@ -56,7 +56,7 @@ img {
 }
 
 ul {
-  list-style-image: url('assets/img/flower (2).png');
+  list-style-image: url('/Users/ceciliaknaub/Documents/GitHub/ugly-website/assets/img/flower (2).png');
 }
 
 li {
